@@ -4,13 +4,13 @@ echo $name;
 echo "<hr />";
 $link1 = Yii::$app->urlManager->createUrl([
     'first/page4',
-    'xname'=>'Wirote',
-    'yname'=>'Thudsaringkansakul'
+    'xname'=>'boom',
+    'yname'=>'Pkeroo'
     ]);
 $link2 = Yii::$app->urlManager->createUrl([
     'first/page4',
-    'xname'=>'วิโรจน์',
-    'yname'=>'ธัชศฤงคารสกุล'
+    'xname'=>'ธนพล',
+    'yname'=>'นางาม'
     ]);
 ?>
 <a href="<?= $link1 ?>">ส่งค่าภาษาอังกฤษ</a>

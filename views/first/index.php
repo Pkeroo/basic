@@ -14,3 +14,4 @@ $link1 = Yii::$app->urlManager->createUrl([
 <a href="<?= $link1 ?>">
     1. การแสดงค่าจาก view
 </a>
+
